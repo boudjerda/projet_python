@@ -106,7 +106,7 @@ def minProd(mode, s) :
 
 	# en mode 'upto' c la somme qui sera retourner tel que demander dans l'exercice
 	if mode == 'upto' :
-		return sum( len(D[i])-1 for i in range(1, s) ) # la longeur de la chaine d'exponentiation minimal est
+		return sum( len(D[i])-1 for i in range(1, s+1) ) # la longeur de la chaine d'exponentiation minimal est
 													   # égale a la (longeur de X)-1 (élément 1 de la chaine)
 
 	# le mode 'only' permet de vérifier les valeurs des chaine calculer pour une entré donnée
